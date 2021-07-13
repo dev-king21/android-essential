@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://airbnb.io/lottie/#/android -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Android</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Lottie is a library for Android, iOS, Web, and Windows that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile and on the web">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="./Android_files/vue.css">
+  <style>
+    .app-name img {
+      width: 80px
+    }
+  </style>
+<link rel="icon" type="image/png" href="https://airbnb.io/favicon.ico"><style>:root{--theme-color: #00D1C1;}</style><style>
+.sidebar {
+  padding-top: 0;
+}
+
+.search {
+  margin-bottom: 20px;
+  padding: 6px;
+  border-bottom: 1px solid #eee;
+}
+
+.search .input-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.search .results-panel {
+  display: none;
+}
+
+.search .results-panel.show {
+  display: block;
+}
+
+.search input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 0 7px;
+  line-height: 36px;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+
+.search input:focus {
+  box-shadow: 0 0 5px var(--theme-color, #42b983);
+  border: 1px solid var(--theme-color, #42b983);
+}
+
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button,
+.search input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.search .clear-button {
+  cursor: pointer;
+  width: 36px;
+  text-align: right;
+  display: none;
+}
+
+.search .clear-button.show {
+  display: block;
+}
+
+.search .clear-button svg {
+  transform: scale(.5);
+}
+
+.search h2 {
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.search a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search .matching-post {
+  border-bottom: 1px solid #eee;
+}
+
+.search .matching-post:last-child {
+  border-bottom: 0;
+}
+
+.search p {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.search p.empty {
+  text-align: center;
+}
+
+.app-name.hide, .sidebar-nav.hide {
+  display: none;
+}</style></head>
+
+<body data-page="android.md" class="ready sticky">
+  <a href="https://github.com/airbnb/lottie" target="_blank" class="github-corner" aria-label="View source on Github"><svg viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><main><button class="sidebar-toggle" aria-label="Menu"><div class="sidebar-toggle-button"><span></span><span></span><span></span></div></button><aside class="sidebar"><div class="search"><div class="input-wrap">
+      <input type="search" value="" aria-label="Search text" placeholder="search...">
+      <div class="clear-button">
+        <svg width="26" height="24">
+          <circle cx="12" cy="12" r="11" fill="#ccc"></circle>
+          <path stroke="white" stroke-width="2" d="M8.25,8.25,15.75,15.75"></path>
+          <path stroke="white" stroke-width="2" d="M8.25,15.75,15.75,8.25"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="results-panel"></div>
+    </div><h1 class="app-name"><a class="app-name-link" data-nosearch="" href="https://airbnb.io/lottie/"><img alt="Lottie" src="./Android_files/logo.webp"></a></h1><div class="sidebar-nav"><ul><li><a href="https://airbnb.io/lottie/#/README" title="Home"><strong>Home</strong></a></li><li><a href="https://airbnb.io/lottie/#/supported-features" title="Supported After Effects Features"><strong>Supported After Effects Features</strong></a></li><li><a href="https://airbnb.io/lottie/#/community-showcase" title="Community Showcase"><strong>Community Showcase</strong></a></li><li class=""><a href="https://airbnb.io/lottie/#/android" title="Android"><strong>Android</strong></a><ul class="app-sub-sidebar"><li class="active"><a class="section-link" href="https://airbnb.io/lottie/#/android?id=sample-app" title="Sample App">Sample App</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=core-classes" title="Core Classes">Core Classes</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=loading-an-animation" title="Loading an Animation">Loading an Animation</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=global-configuration" title="Global Configuration">Global Configuration</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=animation-listeners" title="Animation Listeners">Animation Listeners</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=looping" title="Looping">Looping</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=animation-size-px-vs-dp" title="Animation Size (px vs dp)">Animation Size (px vs dp)</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=imageview-scaletype" title="ImageView scaleType">ImageView scaleType</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=dynamic-properties" title="Dynamic Properties">Dynamic Properties</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=images" title="Images">Images</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=what-is-the-impact-of-lottie-on-apk-size" title="What is the impact of Lottie on APK size?">What is the impact of Lottie on APK size?</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=lottie-vs-android-vector-drawable-avd" title="Lottie vs Android Vector Drawable (AVD)">Lottie vs Android Vector Drawable (AVD)</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=performance" title="Performance">Performance</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=hardware-acceleration" title="Hardware Acceleration">Hardware Acceleration</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=merge-paths" title="Merge Paths">Merge Paths</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=render-graph" title="Render Graph">Render Graph</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=render-times-per-layer" title="Render Times Per Layer">Render Times Per Layer</a></li><li class=""><a class="section-link" href="https://airbnb.io/lottie/#/android?id=troubleshooting" title="Troubleshooting">Troubleshooting</a></li><li><a class="section-link" href="https://airbnb.io/lottie/#/android?id=performance-testing" title="Performance Testing">Performance Testing</a></li></ul></li><li><a href="https://airbnb.io/lottie/#/android-compose" title="Android - Jetpack Compose"><strong>Android - Jetpack Compose</strong></a></li><li><a href="https://airbnb.io/lottie/#/ios" title="iOS/MacOS"><strong>iOS/MacOS</strong></a></li><li><a href="https://airbnb.io/lottie/#/react-native" title="React Native"><strong>React Native</strong></a></li><li><a href="https://airbnb.io/lottie/#/web" title="Web"><strong>Web</strong></a></li><li><a href="https://airbnb.io/lottie/#/windows" title="Windows"><strong>Windows</strong></a></li><li><a href="https://airbnb.io/lottie/#/after-effects" title="After Effects"><strong>After Effects</strong></a></li><li><a href="https://airbnb.io/lottie/#/docs" title="Contribute to Docs"><strong>Contribute to Docs</strong></a></li><li><a href="https://airbnb.io/lottie/#/other-platforms" title="Other Platforms"><strong>Other Platforms</strong></a></li></ul></div></aside><section class="content"><article class="markdown-section" id="main"><h1 id="getting-started"><a href="https://airbnb.io/lottie/#/android?id=getting-started" data-id="getting-started" class="anchor"><span>Getting Started</span></a></h1><p>Add the dependency to your project <code>build.gradle</code> file:</p><pre><code class="lang-groovy">dependencies {
+    ...
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+    ...
+}
+</code></pre>
+<p>The latest version is: <img src="./Android_files/badge.svg" data-origin="https://maven-badges.herokuapp.com/maven-central/com.airbnb.android/lottie/badge.svg" alt="lottieVersion"></p><h1 id="sample-app"><a href="https://airbnb.io/lottie/#/android?id=sample-app" data-id="sample-app" class="anchor"><span>Sample App</span></a></h1><p>You can build the sample app yourself or download it from the <a href="https://play.google.com/store/apps/details?id=com.airbnb.lottie" target="_blank" rel="noopener">Play Store</a>. The sample app includes some built in animations but also allows you to load an animation from internal storage or from a url.
+<br>
+<a href="https://play.google.com/store/apps/details?id=com.airbnb.lottie"><img alt="Get it on Google Play" src="./Android_files/en_badge_web_generic.png" height="80px"></a></p><hr>
+<h1 id="core-classes"><a href="https://airbnb.io/lottie/#/android?id=core-classes" data-id="core-classes" class="anchor"><span>Core Classes</span></a></h1><ul><li><code>LottieAnimationView</code> extends ImageView and is the default and simplest way to load a Lottie animation.</li><li><code>LottieDrawable</code> has most of the same APIs as LottieAnimationView but you can use it on any View you want.</li><li><code>LottieComposition</code> is the stateless model representation of an animation. This file is safe to cache for as long as you need and can be freely reused across drawables/views.</li><li><code>LottieCompositionFactory</code> allows you to create a LottieComposition from a number of inputs. This is what the <code>setAnimation(...)</code> APIs on <code>LottieDrawable</code> and <code>LottieAnimationView</code> use under the hood. The factory methods share the same cache with those classes as well.</li></ul><hr>
+<h1 id="loading-an-animation"><a href="https://airbnb.io/lottie/#/android?id=loading-an-animation" data-id="loading-an-animation" class="anchor"><span>Loading an Animation</span></a></h1><p>Lottie can load animations from:</p><ul><li>A json animation in <code>src/main/res/raw</code>.</li><li>A json file in <code>src/main/assets</code>.</li><li>A zip file in <code>src/main/assets</code>. See <a href="https://airbnb.io/lottie/#/android?id=images">images docs</a> for more info.</li><li>A <a href="https://dotlottie.io/" target="_blank" rel="noopener">dotLottie</a> file in <code>src/main/assets</code>.</li><li>A url to a json or zip file.</li><li>A json string. The source can be from anything including your own network stack.</li><li>An InputStream to either a json file or a zip file.</li></ul><h3 id="from-xml"><a href="https://airbnb.io/lottie/#/android?id=from-xml" data-id="from-xml" class="anchor"><span>From XML</span></a></h3><p>The simplest way to use it is with LottieAnimationView:</p><p>It is recommended to use <code>lottie_rawRes</code> because you can use static references to your animation through <code>R</code> instead of just using string names.</p><h4 id="from-resraw-lottie_rawres-or-assets-lottie_filename"><a href="https://airbnb.io/lottie/#/android?id=from-resraw-lottie_rawres-or-assets-lottie_filename" data-id="from-resraw-lottie_rawres-or-assets-lottie_filename" class="anchor"><span>From res/raw (<code>lottie_rawRes</code>) or assets/ (<code>lottie_fileName</code>)</span></a></h4><pre v-pre="" data-lang="xml"><code class="lang-xml">&lt;com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:lottie_rawRes="@raw/hello_world"
+        // or
+        app:lottie_fileName="hello_world.json"
+
+        // Loop indefinitely
+        app:lottie_loop="true"
+        // Start playing as soon as the animation is loaded
+        app:lottie_autoPlay="true" /&gt;</code></pre><h3 id="programmatically"><a href="https://airbnb.io/lottie/#/android?id=programmatically" data-id="programmatically" class="anchor"><span>Programmatically</span></a></h3><p><code>LottieAnimationView</code>, <code>LottieDrawable</code>, and <code>LottieCompositionFactory</code> each has methods for the corresponding locations.</p><p>Note: to correctly load dark mode (<code>-night</code>) resources, make sure you pass <code>Activity</code> as a context where possible (instead of e.g. the application context). The <code>Activity</code> won't be leaked.</p><h3 id="caching-animations"><a href="https://airbnb.io/lottie/#/android?id=caching-animations" data-id="caching-animations" class="anchor"><span>Caching Animations</span></a></h3><p>All Lottie animations are cached with a LRU cache by default. Default cache keys will be created for animations loaded from <code>res/raw/</code> or <code>assets/</code>. Other APIs require setting a cache key.
+If you fire multiple animation requests for the same animation in parallel such as a wishlist heart in a RecyclerView, subsequent requests will join the existing task so it only gets parsed once.</p><hr>
+<h1 id="global-configuration"><a href="https://airbnb.io/lottie/#/android?id=global-configuration" data-id="global-configuration" class="anchor"><span>Global Configuration</span></a></h1><p>Lottie has some global configuration options. None are required by default but it can be used to:</p><ul><li>Use your own network stack intead of Lottie's built in one when loading animations from the network.</li><li>Provide your own cache directories for animation fetched from the network instead of using Lottie's default one (<code>cacheDir/lottie_network_cache</code>).</li><li>Enable systrace makers for debugging.</li></ul><p>To set it up, somewhere during your application initialization, include:</p><pre v-pre="" data-lang="kotlin"><code class="lang-kotlin">Lottie.initialize(
+    LottieConfig.Builder()
+        .setEnableSystraceMarkers(true)
+        .setNetworkFetcher(...)
+        .setNetworkCacheDir(...)
+)</code></pre><hr>
+<h1 id="animation-listeners"><a href="https://airbnb.io/lottie/#/android?id=animation-listeners" data-id="animation-listeners" class="anchor"><span>Animation Listeners</span></a></h1><p>You can control the animation or add listeners:</p><pre v-pre="" data-lang="kotlin"><code class="lang-kotlin">animationView.addAnimatorUpdateListener { animation -&gt;
+}
+animationView.addAnimatorListener(...)
+animationView.addPauseListener {
+}
+</code></pre><p>In the update listener callback:
+<code>animation.getAnimatedValue()</code> will return the progress of the animation regardless of the currently set min/max frame [0,1].</p><p><code>animation.getAnimatedFraction()</code> will return the progress of the animation taking into account the set min/max frame [minFrame,maxFrame].</p><h3 id="custom-animators"><a href="https://airbnb.io/lottie/#/android?id=custom-animators" data-id="custom-animators" class="anchor"><span>Custom animators</span></a></h3><p>Although <code>playAnimation()</code> is sufficient for the vast majority of use cases, you can call <code>setProgress(...)</code> in the update callback for your own animator. This can be useful to tie an animation to something like a gesture, download progress, or scroll position.</p><pre v-pre="" data-lang="kotlin"><code class="lang-kotlin">// Custom animation speed or duration.
+val animator = ValueAnimator.ofFloat(0f, 1f)
+animator.addUpdateListener {
+    animationView.setProgress(animation.animatedValue)
+}
+animator.start()</code></pre><hr>
+<h1 id="looping"><a href="https://airbnb.io/lottie/#/android?id=looping" data-id="looping" class="anchor"><span>Looping</span></a></h1><p>Lottie support advanced looping functionality that mirrors <code>ValueAnimator</code>. As such, you can call <code>setRepeatMode(...)</code> or <code>setRepeatCount(...)</code> as you would on a <code>ValueAnimator</code>
+You can also enable looping from xml with <code>lottie_loop="true"</code></p><p>You can loop a specific part of an animation by using <code>setMinFrame</code>, <code>setMaxFrame</code>, or <code>setMinAndMaxFrame</code>. There are multiple versions of each that take frame, progress (from 0.0 to 1.0) or a marker name (specified in After Effects).</p><hr>
+<h1 id="animation-size-px-vs-dp"><a href="https://airbnb.io/lottie/#/android?id=animation-size-px-vs-dp" data-id="animation-size-px-vs-dp" class="anchor"><span>Animation Size (px vs dp)</span></a></h1><p><em><strong>Lottie converts all px values in After Effects to dps</strong></em> on device so that everything is rendered at the same size across devices. This means that instead of making an animation in After Effects that is 1920x1080, it should be more like 411x731px in After Effects which roughly corresponds to the dp screen size of most phones today.</p><p>However, if your animation isn't the perfect size, you have two options:</p><hr>
+<h1 id="imageview-scaletype"><a href="https://airbnb.io/lottie/#/android?id=imageview-scaletype" data-id="imageview-scaletype" class="anchor"><span>ImageView scaleType</span></a></h1><p>LottieAnimationView is a wrapped <code>ImageView</code> and it supports <code>centerCrop</code>, <code>centerInside</code>, and <code>fitXY</code> so you may use those two as you would with any other image.</p><h2 id="scaling-updown"><a href="https://airbnb.io/lottie/#/android?id=scaling-updown" data-id="scaling-updown" class="anchor"><span>Scaling Up/Down</span></a></h2><p><code>LottieAnimationView</code> and <code>LottieDrawable</code> both have a <code>setScale(float)</code> API that you can use to manually scale up or down your animation. This is rarely useful but can be in certain situations.</p><p>If your animation is performing slowly, make sure to check the documentation on <a href="https://airbnb.io/lottie/#/android/performance">performance</a>. However, try scaling your animation down in combination with a scaleType. This will reduce the amount that Lottie renders per frame. This is particularly helpful if you have large mattes or masks.</p><hr>
+<h1 id="dynamic-properties"><a href="https://airbnb.io/lottie/#/android?id=dynamic-properties" data-id="dynamic-properties" class="anchor"><span>Dynamic Properties</span></a></h1><p>You can update properties dynamically at runtime. This can be used for a variety of purposes such as:</p><ul><li>Theming (day and night or arbitrary themes).</li><li>Responding to events such as an error or a success.</li><li>Animating a single part of an animation in response to an event.</li><li>Responding to view sizes or other values not known at design time.</li></ul><h3 id="understanding-after-effects"><a href="https://airbnb.io/lottie/#/android?id=understanding-after-effects" data-id="understanding-after-effects" class="anchor"><span>Understanding After Effects</span></a></h3><p>To understand how to change animation properties in Lottie, you should first understand how animation properties are stored in Lottie.
+Animation properties are stored in a data tree that mimics the information heirarchy of After Effects. In After Effects a <code>Composition</code> is a collection of <code>Layers</code> that each have their own timelines. <code>Layer</code> objects have string names, and their contents can be an image, shape layers, fills, strokes, or just about anything that is drawable. Each object in After Effects has a name. Lottie can find these objects and properties by their name using a <code>KeyPath</code>.</p><h3 id="usage"><a href="https://airbnb.io/lottie/#/android?id=usage" data-id="usage" class="anchor"><span>Usage</span></a></h3><p>To update a property at runtime, you need 3 things:</p><ol><li>KeyPath</li><li>LottieProperty</li><li>LottieValueCallback</li></ol><h4 id="keypath"><a href="https://airbnb.io/lottie/#/android?id=keypath" data-id="keypath" class="anchor"><span>KeyPath</span></a></h4><p>A KeyPath is used to target a specific content or a set of contents that will be updated. A KeyPath is specified by a list of strings that correspond to the hierarchy of After Effects contents in the original animation.</p><p>KeyPaths can include the specific name of the contents or wildcards:</p><ul><li><strong>Wildcard</strong> <code>*</code><ul><li>Wildcards match any single content name in its position in the keypath.</li></ul></li><li><strong>Globstar</strong> <code>**</code><ul><li>Globstars match zero or more layers.</li></ul></li></ul><h4 id="keypath-resolution"><a href="https://airbnb.io/lottie/#/android?id=keypath-resolution" data-id="keypath-resolution" class="anchor"><span>KeyPath resolution</span></a></h4><p>KeyPaths have the ability to store an internal reference to the content that they resolve to. When you create a new KeyPath object, it will be unresolved. LottieDrawable and LottieAnimationView has a <code>resolveKeyPath()</code> method that takes a KeyPath and returns a list of zero or more resolved KeyPaths that each resolve to a single piece of content and are internally resolved. This can be used to discover the structure of your animation if you don't know it. To do so, in a development environment, resolve <code>new KeyPath("**")</code> and log the returned list. However, you shouldn't use <code>**</code> by itself with a ValueCallback because it will be applied to every single piece of content in your animation. If you resolve your KeyPaths and want to subsequently add a value callback, use the KeyPaths returned from that method because they will be internally resolved and won't have to do a tree walk to find the content again.</p><p>See the documentation for <code>KeyPath</code> for more information.</p><h4 id="lottieproperty"><a href="https://airbnb.io/lottie/#/android?id=lottieproperty" data-id="lottieproperty" class="anchor"><span>LottieProperty</span></a></h4><p>LottieProperty is an enumeration of properties that can be set. They correspond to the animatable value in After Effects and the available properties are listed above and in the documentation for <code>LottieProperty</code></p><h4 id="valuecallback"><a href="https://airbnb.io/lottie/#/android?id=valuecallback" data-id="valuecallback" class="anchor"><span>ValueCallback</span></a></h4><p>The ValueCallback is what gets called every time the animation is rendered. The callback provides:</p><ol><li>Start frame of the current keyframe.</li><li>End frame of the current keyframe.</li><li>Start value of the current keyframe.</li><li>End value of the current keyframe.</li><li>Progress from 0 to 1 in the current keyframe without any time interpolation.</li><li>Progress in the current keyframe with the keyframe's interpolator applied.</li><li>Progress in the overall animation from 0 to 1.</li></ol><p>There are also some helper <code>ValueCallback</code> subclasses such as <code>LottieStaticValueCallback</code> that takes a single value of the correct type in its constructor and will always return that. Think of it as a fire and forget value. There is also a relative value callback that offsets the real animation value by a specified amount.</p><h5 id="valuecallback-classes"><a href="https://airbnb.io/lottie/#/android?id=valuecallback-classes" data-id="valuecallback-classes" class="anchor"><span>ValueCallback classes</span></a></h5><ul><li>LottieValueCallback<t>: Either set a static value in the contructor or override getValue() to set the value on every frame.</t></li><li>LottieRelativeTYPEValueCallback: Either set a static value in the constructor or override getOffset() to set a value taht will be applied as an offset to the actual animation value on each frame. TYPE is the same type as the LottieProperty parameter.</li><li>LottieInterpolatedTYPEValue: Supply a start value, end value, and optional interpolator to have the value automatically interpolate across the entire animation. TYPE is the same type as the LottieProperty parameter.</li></ul><h3 id="usage-1"><a href="https://airbnb.io/lottie/#/android?id=usage-1" data-id="usage-1" class="anchor"><span>Usage</span></a></h3><pre v-pre="" data-lang="kotlin"><code class="lang-kotlin">animationView.addValueCallback(
+  KeyPath("Shape Layer", "Rectangle", "Fill"),
+  LottieProperty.COLOR,
+  { Color.RED }
+)</code></pre><pre v-pre="" data-lang="kotlin"><code class="lang-kotlin">animationView.addValueCallback(
+    KeyPath("Shape Layer", "Rectangle", "Fill"),
+    LottieProperty.COLOR,
+    { if (it.overallProgress &lt; 0.5) Color.GREEN else Color.RED }
+)</code></pre><h3 id="animatable-properties"><a href="https://airbnb.io/lottie/#/android?id=animatable-properties" data-id="animatable-properties" class="anchor"><span>Animatable Properties</span></a></h3><p>The following value can be modified:</p><table>
+<thead>
+<tr>
+<th>Transform</th>
+<th>Layer</th>
+<th>Fill</th>
+<th>Stroke</th>
+<th>Ellipse</th>
+<th>Polystar</th>
+<th>Repeater</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>TRANSFORM_ANCHOR_POINT</td>
+<td>TRANSFORM_ANCHOR_POINT</td>
+<td>COLOR</td>
+<td>COLOR</td>
+<td>ELLIPSE_SIZE</td>
+<td>POLYSTAR_POINTS</td>
+<td>REPEATER_COPIES</td>
+</tr>
+<tr>
+<td>TRANSFORM_POSITION</td>
+<td>TRANSFORM_POSITION</td>
+<td>OPACITY</td>
+<td>OPACITY</td>
+<td>POSITION</td>
+<td>POLYSTAR_ROTATION</td>
+<td>REPEATER_OFFSET</td>
+</tr>
+<tr>
+<td>TRANSFORM_OPACITY</td>
+<td>TRANSFORM_OPACITY</td>
+<td>COLOR_FILTER</td>
+<td>COLOR_FILTER</td>
+<td></td>
+<td>POSITION</td>
+<td>TRANSFORM_ROTATION</td>
+</tr>
+<tr>
+<td>TRANSFORM_SCALE</td>
+<td>TRANSFORM_SCALE</td>
+<td></td>
+<td>STROKE_WIDTH</td>
+<td></td>
+<td>POLYSTAR_OUTER_RADIUS</td>
+<td>TRANSFORM_START_OPACITY</td>
+</tr>
+<tr>
+<td>TRANSFORM_ROTATION</td>
+<td>TRANSFORM_ROTATION</td>
+<td></td>
+<td></td>
+<td></td>
+<td>POLYSTAR_OUTER_ROUNDEDNESS</td>
+<td>TRANSFORM_END_OPACITY</td>
+</tr>
+<tr>
+<td></td>
+<td>TIME_REMAP</td>
+<td></td>
+<td></td>
+<td></td>
+<td>POLYSTAR_INNER_RADIUS</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="layers"><a href="https://airbnb.io/lottie/#/android?id=layers" data-id="layers" class="anchor"><span>Layers:</span></a></h4><ul><li>All transform properties</li><li><code>TIME_REMAP</code> (composition layers only)</li></ul><h3 id="notable-properties"><a href="https://airbnb.io/lottie/#/android?id=notable-properties" data-id="notable-properties" class="anchor"><span>Notable Properties</span></a></h3><h4 id="time-remapping"><a href="https://airbnb.io/lottie/#/android?id=time-remapping" data-id="time-remapping" class="anchor"><span>Time Remapping</span></a></h4><p>Compositions and precomps (composition layers) have an a time remap proprty. If you set a value callback for time remapping, you control the progress of a specific layer. To do so, return the desired time value in seconds from your value callback.</p><h4 id="color-filters"><a href="https://airbnb.io/lottie/#/android?id=color-filters" data-id="color-filters" class="anchor"><span>Color Filters</span></a></h4><p>The only animatable property that doesn't map 1:1 to an After Effects property is the color filter property you can set on fill content. This can be used to set blend modes on layers. It will only apply to the color of that fill, not any overlapping content.</p><hr>
+<h1 id="images"><a href="https://airbnb.io/lottie/#/android?id=images" data-id="images" class="anchor"><span>Images</span></a></h1><p>Lottie is designed to work with vector shapes. Although Lottie supports rendering images, there are disadvantages to using them:</p><ul><li>The files are an order of magnitude larger than their equivalent vector animation.</li><li>They get pixelated when scaled.</li><li>They add complexity to the animation. Instead of one file, you have the json file plus all of the images.</li></ul><p>A common cause of images in Lottie files is that bodymovin exports Illustrator layers from After Effects as images. If you think this might be the case, follow the instructions <a href="https://airbnb.io/lottie/#/after-effects">here</a>.</p><h3 id="setting-your-images"><a href="https://airbnb.io/lottie/#/android?id=setting-your-images" data-id="setting-your-images" class="anchor"><span>Setting your images</span></a></h3><p>You can set Lottie images in three ways:</p><h4 id="srcassets"><a href="https://airbnb.io/lottie/#/android?id=srcassets" data-id="srcassets" class="anchor"><span>src/assets</span></a></h4><p>Put the images in a folder inside of <code>src/assets</code> and don't change the filenames of the images.</p><p>Then, tell Lottie to the assets folder where the images are stored by calling <code>setImageAssetsFolder</code> on <code>LottieAnimationView</code> or
+<code>LottieDrawable</code> with the relative folder inside of assets or with the <code>app:lottie_imageAssetsFolder</code> attribute on your LottieAnimationView.</p><p>Again,make sure that the images that bodymovin exports are in that folder with their names unchanged (should be img_#).</p><h4 id="zip-file"><a href="https://airbnb.io/lottie/#/android?id=zip-file" data-id="zip-file" class="anchor"><span>Zip file</span></a></h4><p>Alternatively, you can create a zip file with your json and images together. Lottie can unzip and read the contents. This can be done for local files or from a url.</p><h4 id="providing-your-own-images"><a href="https://airbnb.io/lottie/#/android?id=providing-your-own-images" data-id="providing-your-own-images" class="anchor"><span>Providing your own images</span></a></h4><p>Sometimes, you don't have the images bundled with the device. You may do this to save space in your apk or if you downloaded the animation from the network. To handle this case, you can set an <code>ImageAssetDelegate</code> on your <code>LottieAnimationView</code> or <code>LottieDrawable</code>. The delgate will be called every time Lottie tries to render an image. It will pass the image name and ask you to return the bitmap. If you don't have it yet (if it's still downloading, for example) then just return null and Lottie will continue to ask on every frame until you return a non-null value.</p><pre v-pre="" data-lang="kotlin"><code class="lang-kotlin">animationView.setImageAssetDelegate { asset -&gt;
+   when (asset.id) {
+       "id_1" -&gt; yourBitmap1
+       ...
+   }
+}</code></pre><hr>
+<h1 id="what-is-the-impact-of-lottie-on-apk-size"><a href="https://airbnb.io/lottie/#/android?id=what-is-the-impact-of-lottie-on-apk-size" data-id="what-is-the-impact-of-lottie-on-apk-size" class="anchor"><span>What is the impact of Lottie on APK size?</span></a></h1><p>Very small:</p><ul><li>~1600 methods.</li><li>287kb uncompressed.</li></ul><hr>
+<h1 id="lottie-vs-android-vector-drawable-avd"><a href="https://airbnb.io/lottie/#/android?id=lottie-vs-android-vector-drawable-avd" data-id="lottie-vs-android-vector-drawable-avd" class="anchor"><span>Lottie vs Android Vector Drawable (AVD)</span></a></h1><p>There are two ways to render After Effects animations:</p><ol><li>Export json with Bodymovin and play it with lottie-android.</li><li>Export AndroidVectorDrawable xml with Bodymovin and play it using the Android SDK.</li></ol><h2 id="pros-of-lottie"><a href="https://airbnb.io/lottie/#/android?id=pros-of-lottie" data-id="pros-of-lottie" class="anchor"><span>Pros of Lottie</span></a></h2><ul><li>Supports a much larger set of After Effects features. See <a href="https://airbnb.io/lottie/#/after-effects/supported-features">supported features</a> for a full list.</li><li>Manually set progress to hook up an animation to a gesture, event, etc.</li><li>Download animations from the network.</li><li>Dynamic playback speed.</li><li>Masks are anti-aliased.</li><li>Dynamically change the color of a specific part of an animations</li></ul><h2 id="pros-of-animatedvectordrawable"><a href="https://airbnb.io/lottie/#/android?id=pros-of-animatedvectordrawable" data-id="pros-of-animatedvectordrawable" class="anchor"><span>Pros of AnimatedVectorDrawable</span></a></h2><ul><li>Faster peformance due to the animation running on the <a href="https://medium.com/@workingkills/understanding-the-renderthread-4dc17bcaf979" target="_blank" rel="noopener">RenderThread</a> vs the main thread.</li></ul><hr>
+<h1 id="performance"><a href="https://airbnb.io/lottie/#/android?id=performance" data-id="performance" class="anchor"><span>Performance</span></a></h1><h2 id="masks-and-mattes"><a href="https://airbnb.io/lottie/#/android?id=masks-and-mattes" data-id="masks-and-mattes" class="anchor"><span>Masks and Mattes</span></a></h2><p>Masks and mattes on android have the larges performance hit. Their performance hit is also proportional to the intersection bounds of the masked/matted layer and the mask/matte so the smaller the mask/matte, the less of a performance hit there will be.
+On Android, if you are using masks or mattes, there will be a several X performance improvement when using hardware acceleration.
+For debugging purposes, Lottie can outline all masks and mattes in your animation. To do that, just call <code>setOutlineMasksAndMattes(true)</code> on your <code>LottieAnimationView</code> or <code>LottieDrawable</code>.</p><h1 id="hardware-acceleration"><a href="https://airbnb.io/lottie/#/android?id=hardware-acceleration" data-id="hardware-acceleration" class="anchor"><span>Hardware Acceleration</span></a></h1><p>Lottie supports hardware acceleration but it is disabled out of the box. Read <a href="https://developer.android.com/guide/topics/graphics/hardware-accel.html" target="_blank" rel="noopener">this article</a> to learn more about hardware acceleration. It is disabled by default because it doesn't support anti-aliasing, stroke caps (pre-API 18), and a few other things. In addition, depending on the animation, they may actually be less performant. Read <a href="http://blog.danlew.net/2015/10/20/using-hardware-layers-to-improve-animation-performance/" target="_blank" rel="noopener">this article</a> to understand why.</p><p>If you are having performance issues with your animation, make sure to read the <a href="https://airbnb.io/lottie/#/android/performance">performance</a> docs first. There is more information about how to benchmark and determine if your animation would benefit from hardware acceleration there.</p><h1 id="merge-paths"><a href="https://airbnb.io/lottie/#/android?id=merge-paths" data-id="merge-paths" class="anchor"><span>Merge Paths</span></a></h1><p>Merge paths are only supported on KitKat and above. There is also some performance overhead in using them because <a href="https://developer.android.com/reference/android/graphics/Path.html#op(android.graphics.Path,%20android.graphics.Path.Op" target="_blank" rel="noopener">Path.Op</a> can be slow. To prevent engineers from testing on new devices with merge paths enabled while shipping a broken experience to users on older phones, they are disabled by default. If your <code>minSdk</code> is &gt;=19 then you can enable then with <code>enableMergePathsForKitKatAndAbove()</code></p><h1 id="render-graph"><a href="https://airbnb.io/lottie/#/android?id=render-graph" data-id="render-graph" class="anchor"><span>Render Graph</span></a></h1><p>The Lottie sample app has a real time render graph that can be enabled from the menu in the top right. It also has guidelines for 16.66 and 33.333ms per frame which represent the maximum render time to hit 60fps and 30fps respectively.</p><p><img src="./Android_files/render-graph.png" data-origin="/images/render-graph.png" alt="Render Graph" width="300"></p><h1 id="render-times-per-layer"><a href="https://airbnb.io/lottie/#/android?id=render-times-per-layer" data-id="render-times-per-layer" class="anchor"><span>Render Times Per Layer</span></a></h1><p>The Lottie sample app also has a bottom sheet with the time it took each layer to render. To access it, click the render graph in the control bar and then tap "View render times per layer".</p><p>If there are any layers that are particularly slow, try optimizing their shapes, eliminated masks, mattes, and merge paths where possible.</p><p><img src="./Android_files/render-times-per-layer.png" data-origin="/images/render-times-per-layer.png" alt="Render times" width="300"></p><h1 id="troubleshooting"><a href="https://airbnb.io/lottie/#/android?id=troubleshooting" data-id="troubleshooting" class="anchor"><span>Troubleshooting</span></a></h1><p>There may be times in which Lottie doesn't render your animation correctly. After effects has an enormous number of features, not all of which are supported by Lottie. If an animation doesn't look correct, run through the following steps before reporting an issue.</p><h2 id="check-for-warnings"><a href="https://airbnb.io/lottie/#/android?id=check-for-warnings" data-id="check-for-warnings" class="anchor"><span>Check for Warnings</span></a></h2><p>The Lottie for Android will automatically detect and report some errors. It doesn't catch everything but will catch many common cases. You can either call <code>getWarnings()</code> from your own code or open the animation in the <a href="https://play.google.com/store/apps/details?id=com.airbnb.lottie" target="_blank" rel="noopener">Lottie sample app</a> and see if warnings show up in the top right. If they do, tapping it will give you more information.</p><p><img src="./Android_files/warnings.png" data-origin="/images/warnings.png" alt="Warnings" width="300"></p><h2 id="check-the-supported-features-page"><a href="https://airbnb.io/lottie/#/android?id=check-the-supported-features-page" data-id="check-the-supported-features-page" class="anchor"><span>Check the supported features page.</span></a></h2><p>Check the <a href="https://airbnb.io/lottie/#/supported-features">supported features page</a> on this site to see if you are using anything that isn't supported.</p><h2 id="debug"><a href="https://airbnb.io/lottie/#/android?id=debug" data-id="debug" class="anchor"><span>Debug</span></a></h2><p>Try rendering individual parts of the animation to see which feature isn't rendering correctly. See if you can narrow it down to a specific combination of shapes and effects or anything more specific than "it doesn't look right". If the issue should be supported and isn't, file an issue on the appropriate lottie github page with a description and a zip of the aep file.</p><h2 id="missing-merge-paths"><a href="https://airbnb.io/lottie/#/android?id=missing-merge-paths" data-id="missing-merge-paths" class="anchor"><span>Missing merge paths</span></a></h2><p>Merge paths are only available on KitKat and above so you must manually enable them using <code>enableMergePathsForKitKatAndAbove()</code></p><h2 id="animation-clipping"><a href="https://airbnb.io/lottie/#/android?id=animation-clipping" data-id="animation-clipping" class="anchor"><span>Animation Clipping</span></a></h2><p>Make sure you are using the latest version of Lottie.</p><h1 id="performance-testing"><a href="https://airbnb.io/lottie/#/android?id=performance-testing" data-id="performance-testing" class="anchor"><span>Performance Testing</span></a></h1><p><img src="./Android_files/yklogo.png" data-origin="https://www.yourkit.com/images/yklogo.png" alt="YourKit"></p><p>Performance and memory testing was aided by <a href="https://www.yourkit.com/java/profiler/" target="_blank" rel="noopener">YourKit</a> which provides powerful performance and memory profiling tools for Java.</p></article></section></main>
+  <script>
+    window.$docsify = {
+      name: 'Lottie',
+      repo: 'https://github.com/airbnb/lottie',
+      loadSidebar: true,
+      homepage: 'home.md',
+      subMaxLevel: 1,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      search: {
+        noData: {
+          '/': 'no results'
+        },
+        paths: 'auto',
+        placeholder: {
+          '/': 'search...'
+        }
+      },
+      auto2top: true,
+      logo: '/images/logo.webp',
+      themeColor: '#00D1C1'
+    }
+  </script>
+  <script src="./Android_files/docsify.min.js.download"></script>
+  <script src="./Android_files/search.min.js.download"></script>
+
+
+<div class="progress" style="opacity: 0; width: 0%;"></div></body></html>
